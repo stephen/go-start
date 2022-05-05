@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -e POSTGRES_PASSWORD=pguser -it $(basename `git rev-parse --show-toplevel`)_db_1 psql -h 127.0.0.1 -p 5432 -U pguser db
