@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Making directories..."
-mkdir -p db/migrations/
+mkdir -p internal/db/migrations/
 mkdir -p bin/go/
 
 echo "Installing go tools..."
