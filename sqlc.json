@@ -5,8 +5,8 @@
       "path": "db",
       "name": "db",
       "engine": "postgresql",
-      "schema": "internal/db/migrations/",
-      "queries": "internal/db/",
+      "schema": "internal/models/migrations/",
+      "queries": "internal/models/",
       "sql_package": "pgx/v4"
     }
   ]

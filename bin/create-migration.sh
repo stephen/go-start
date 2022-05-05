@@ -1,3 +1,3 @@
 #!/bin/bash
 input=$@
-goose -dir=internal/db/migrations create ${input// /_} sql
+goose -dir=internal/models/migrations create ${input// /_} sql
